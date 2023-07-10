@@ -1,0 +1,883 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Golos Text', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;}
+
+    .announcement{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height:2vw;
+          font-size: 0.875vw;
+      line-height: 1.125vw;
+      }
+
+      /* --- header design ---- */
+      header{
+        max-width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          height: 5.25vw;
+          width: 100vw;
+         border: 0.0625rem solid #21212126;
+      }
+      .left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 3.37vw;
+      }
+      .hamburger img {
+        width: 2vw;
+      margin-top: 5.5px;
+        flex-shrink: 0;
+        cursor: pointer;
+      }     
+      .logo{
+    margin-left: 1vw;
+    margin-right: 16.81vw;  
+      }
+      .logo img{
+        width: 8.6875vw;
+    height: 1.5625vw;
+      }    
+      .search-form {
+        position: relative;
+      }
+      .search-form input[type="text"] {
+        width: 27.5vw;
+        height: 2.5vw;
+        padding-left: 2.625vw; /* Adjust the padding to make space for the search icon */
+        background-image: url('img/Vector.png');
+        background-repeat: no-repeat;
+        background-position: 0.56vw center;
+        background-size: 1.31vw 1.31vw; /* Adjust the size of the search icon as needed */
+        border-radius: 0.25rem;
+        background-color: #F6F6F6;   
+        border: none;
+      }
+      .location{
+        display: flex;
+        margin-left: 6.13vw;
+      }
+      .location img{
+    height: 1.25vw;
+      }
+      .location p{
+        font-size: 0.875vw;
+        margin-left: 0.75vw;
+      }
+      .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5.31vw;
+     padding-right: 3.62vw;
+      }
+      .user img{
+        height: 1.25vw; 
+      }
+      .bag img{
+        height: 1.25vw;
+       margin-left: 1.5vw;
+      }
+
+      /* --New Nama In Town-- */
+
+      .container1{
+        padding: 4vw 3.38vw;
+      }
+      .container{
+        background-image: url(img/Nama.png);
+        width: 100%;
+        height: 49.75vw;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        padding: 3vw 3.94vw;
+      }
+      .container img{
+        width: 83vw;
+        height: 49.75vw;
+        flex-shrink: 0;
+      }
+      .container h3{
+        display: flex;
+      width: 41.625vw;
+      height: 3.0625vw;
+      flex-direction: column;
+      flex-shrink: 0;
+      color: #FFF;
+      font-family: Golos Text;
+      font-size: 3.5vw;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%;
+      margin-bottom: 2vw;
+      /* margin: 31.44rem 38.38rem 2rem 3rem; */
+      }
+      .container p{
+        display: flex;
+        width: 25.6875vw;
+        height: 3.3125vw;
+        flex-direction: column;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: Golos Text;
+        font-size: 1.0625vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 180%;
+        margin-bottom: 3vw;
+      }
+      
+        .btn{
+          display: flex;
+          width: 10vw;
+          height: 3vw;
+          justify-content: center;
+          align-items: center;
+          padding: 1vw 2.5vw 1vw 2.5625vw;
+          background: #EBD6B1;
+          border-radius: 0.3125vw;
+          color:#7F5837;
+          font-size: 1vw;
+          font-weight: 400;
+          transition: all .45s ease;
+      }
+      .btn:hover{
+          transform: scale(0.9);}
+      
+          /* -Finest Japanese Chocolates- */
+          .container2{
+            display: flex;
+            flex-direction: row;
+            width:100%;
+      height: 48.5vw;
+      background: #FFF6E6;
+          }
+          .content{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .subH{
+            display: flex;
+      width: 28.25vw;
+      height: 7.625vw;
+      flex-direction: column;
+      flex-shrink: 0;
+      color: #212121;
+      font-family: Golos Text;
+      font-size: 3.5vw;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 120%;
+      margin: 12.88vw auto 3vw 8.81vw;
+          }
+          .para2{
+            display: flex;
+      width: 27vw;
+      height: 6.125vw;
+      flex-direction: column;
+      flex-shrink: 0;
+      color: #2F2F2F;
+      font-family: Golos Text;
+      font-size: 1.0625vw;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 180%;
+      margin: auto auto 3vw 8.81vw;
+          }
+          .btn2{
+            display: flex;
+            width: 10vw;
+            height: 3vw;
+            padding: 1rem 2.4375vw;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            border-radius: 0.3125vw;
+      background:#2E3969;
+      color: #FFF;
+      text-align: center;
+      font-family: Golos Text;
+      font-size: 1vw;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%;
+      transition: all .45s ease;
+      margin: auto auto 12.87vw 9.44vw;
+          }
+          .btn2:hover{
+            transform: scale(0.9);}
+           .image{
+            width: 50%;
+           }
+            .image img{
+              width: 100%;
+height: 48.5vw;
+            }
+      
+            /* --Our Collections-- */
+            .container3{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+            }
+      
+            .sub-title{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-top: 8.56vw;
+              width: 27vw;
+              height: 3.5vw;
+              flex-direction: column;
+              color: #212121;
+text-align: center;
+font-family: Golos Text;
+font-size: 3.5vw;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+            }
+            .container3 p{
+              color: #2F2F2F;
+text-align: center;
+font-family: Golos Text;
+font-size: 1.375vw;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+margin-top: 3vw;
+            }
+            .collections{
+              display: grid;
+              grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+              grid-gap: 2.12vw;
+              margin-top: 2.56vw;
+              padding: 2.5vw 3.38vw;
+          }
+          .collections div img{
+          width: 100%;
+          border-radius: 10px;
+          }
+          .collections h3{
+            color: #2F2F2F;
+font-family: Golos Text;
+font-size: 1.75vw;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+margin-top: 2.5vw;
+text-align: center;
+          }
+          .line{
+          margin-left: 3.37vw;
+            width: 93vw;
+height: 0.0625vw;
+background: rgba(33, 33, 33, 0.60);
+          }
+
+          /* --Brand Uniqueness-- */
+          .container4{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+          }
+          .sub-title2{
+            display: flex;
+            width: 30.625vw;
+            height: 3.0625vw;
+            flex-direction: column;
+            flex-shrink: 0;
+            color: #212121;
+            text-align: center;
+            margin: 8vw 11.5vw 5.06vw 3.37vw;
+            font-family: Golos Text;
+            font-size: 3.5vw;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+          }
+          .container4 p{
+            display: flex;
+width: 32.5625vw;
+height: 1.125vw;
+flex-direction: column;
+flex-shrink: 0;
+            margin-top: 9.94vw;
+            color: #2F2F2F;
+font-family: Golos Text;
+font-size: 1.375vw;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+          }
+          .Buniq{
+            display: flex;            
+            margin-top: 2.56vw;
+            padding: 0vw 3.38vw;
+        }
+        .img1{
+          display: flex;
+          align-items: flex-end;
+          padding: 2.7vw;
+          background-image: url(img/cacao-fruit-fresh-cocoa-pod-hands-cocoa-pod-tree.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+          width: 57vw;
+          height: 34.625vw;
+          flex-shrink: 0;
+          margin-right: 2vw;
+        }
+        .img2{
+          display: flex;
+          align-items: flex-end;
+          padding: 2.7vw;
+          background-image: url(img/high-angle-delicious-chocolate-arrangement-dark-cloth.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 36.7vw;
+height: 34.625vw;
+flex-shrink: 0;
+        }
+        .Pbtn{
+          display: flex;
+          width: 9vw;
+          height: 3vw;
+          flex-shrink: 0;
+          justify-content: center;
+          align-items: center;
+          padding: 1vw 2.5vw 1vw 2.5625vw;
+          border-radius: 2.5vw;
+          background: #FFF;
+          color:#7F5837;
+          font-size: 1vw;
+          font-weight: 400;
+          transition: all .45s ease;
+      }
+      .Pbtn:hover{
+          transform: scale(0.9);
+        background: #EBD6B1;}
+
+        /* <!--Featured in--> */
+        .container5{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+        }
+       .sub-title3{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 8.56vw;
+          width: 27vw;
+          height: 3.5vw;
+          flex-direction: column;
+          color: #212121;
+text-align: center;
+font-family: Golos Text;
+font-size: 3.5vw;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+        }
+        .container5 p{
+          color: #2F2F2F;
+text-align: center;
+font-family: Golos Text;
+font-size: 1.375vw;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+margin-top: 3vw;
+        }
+        .featured{
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+          grid-gap: 2.12vw;
+          margin-top: 2.56vw;
+          margin-bottom: 8vw;
+          padding: 2.5vw 3.38vw; 
+      }
+      .f1{
+        display: flex;
+        align-items: center;
+    justify-content: center;
+        width: 17.875vw;
+        height: 17.875vw;
+background-image: url(img/ellipse.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+border-radius: 10px;
+      }
+      .f1 img{
+        width: 6.9375vw;
+        height: 3.375vw;
+        flex-shrink: 0;
+      }
+      .f2{
+        display: flex;
+        align-items: center;
+    justify-content: center;
+        width: 17.875vw;
+        height: 17.875vw;
+background-image: url(img/ellipse.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+border-radius: 10px;}
+      .f2 img{
+        width: 12.25vw;
+height: 2.25vw;
+flex-shrink: 0;
+      }
+      .f3{
+        display: flex;
+        align-items: center;
+    justify-content: center;
+        width: 17.875vw;
+        height: 17.875vw;
+background-image: url(img/ellipse.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+border-radius: 10px;}
+      .f3 img{
+        width: 9vw;
+        height: 2.25vw;
+        flex-shrink: 0;
+      }
+      .f4{
+        display: flex;
+        align-items: center;
+    justify-content: center;
+        width: 17.875vw;
+        height: 17.875vw;
+background-image: url(img/ellipse.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+border-radius: 10px;}
+      .f4 img{
+        width: 9vw;
+height: 2.25vw;
+flex-shrink: 0;}
+.f5{
+  display: flex;
+  align-items: center;
+justify-content: center;
+  width: 17.875vw;
+  height: 17.875vw;
+background-image: url(img/ellipse.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+border-radius: 10px;}
+      .f5 img{
+        width: 6.375vw;
+        height: 2.25vw;
+        flex-shrink: 0;
+      }
+
+      /* <!--Other Collections--> */
+    .container6{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding-left: 3.37vw;
+    }
+.sub-title4{
+  display: flex;
+  width: 30.625vw;
+  height: 3.0625vw;
+  flex-direction: column;
+  flex-shrink: 0;
+  color: #212121;
+font-family: Golos Text;
+font-size: 3.5vw;
+font-style: normal;
+font-weight: 500;
+line-height: 100%;
+}
+.container6 p{
+  color: #2F2F2F;
+  font-family: Golos Text;
+  font-size: 1.375vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  margin-top: 3vw;
+}
+      .otherC{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 2.12vw;
+        margin-top: 2.56vw;
+        padding: 2.5vw 3.38vw;
+    }
+    .otherC div img{
+    width: 100%;
+    border-radius: 10px;
+    }
+    .otherC h3{
+      color: #2F2F2F;
+font-family: Golos Text;
+font-size: 1.75vw;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+margin-top: 2.5vw;
+text-align: left;
+    }
+   
+    /* <!--Delivery Details--> */
+    .container7{
+      width: 69vw;
+height: 14vw;
+flex-shrink: 0;
+border-radius: 0.375rem;
+background: #FFF1F4;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin: 8vw 14.62vw 0;
+    }
+    .container7 img{
+      width: 4vw;
+      height: 4vw;
+      flex-shrink: 0;
+    }
+    .container7 div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .container7 p{
+      color: #2F2F2F;
+text-align: center;
+font-family: Golos Text;
+font-size: 1.375vw;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+margin-top: 1.5vw;
+    }
+
+
+    /* <!--Testimonials--> */
+    .container8{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .sub-title{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 8.56vw;
+      width: 27vw;
+      height: 3.5vw;
+      flex-direction: column;
+      color: #212121;
+text-align: center;
+font-family: Golos Text;
+font-size: 3.5vw;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+    }
+    .container8 p{
+      color: #2F2F2F;
+text-align: center;
+font-family: Golos Text;
+font-size: 1.375vw;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+margin-top: 3vw;
+    }
+    .testimonials{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 5.31vw 3.5vw;
+    }
+.testi{
+  width: 27vw;
+height: 17.625vw;
+flex-shrink: 0;
+display: flex;
+flex-direction:column;
+border-radius: 0.25vw;
+background: #FAFAFA;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+margin-top: 2.56vw;
+padding: 2.5vw 3.38vw;
+}
+.testi p{
+  color: #7B7B7B;
+text-align: justify;
+font-family: Golos Text;
+font-size: 1.0625vw;
+font-style: normal;
+font-weight: 400;
+line-height: 156%;
+}
+.test{
+  display: flex;
+  flex-direction: row;
+}
+.dp{
+  margin-right: 1.25vw;
+}
+.dp img{
+  width: 4vw;
+height: 4vw;
+flex-shrink: 0;
+}
+.name{
+  display: flex;
+  flex-direction: column;
+}
+.name h1{
+  color: #231F20;
+font-family: Golos Text;
+font-size: 1.375vw;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+text-transform: capitalize;
+}
+.stars{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stars img{
+  width: 1vw;
+height: 1vw;
+}
+
+/* <!--Follow us on instagram--> */
+.container9{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sub-titleF{
+  display: flex;
+width: 40.75vw;
+height: 3.375vw;
+flex-direction: column;
+flex-shrink: 0;
+color: #212121;
+text-align: center;
+font-family: Golos Text;
+font-size: 3.5vw;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+margin-bottom: 3vw;
+}
+.container9 p{
+  color: #C9977A;
+text-align: center;
+font-family: Golos Text;
+font-size: 1.375vw;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+border-radius: 0.3125vw;
+border: 1px solid rgba(33, 33, 33, 0.30);
+display: flex;
+width: 17.5vw;
+height: 3rem;
+padding: 0.875vw 0.875vw 0.9375vw 0.9375vw;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+margin-bottom: 5.56vw;
+}
+.insta{
+  width: 100%;
+  height: 29vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.im1 img{
+  display: flex;
+  align-items: flex-start;
+height: 25vw;
+flex-shrink: 0;
+}
+.im2{
+  display: flex;
+  align-items: flex-end;
+}
+.im2 img{
+  display: flex;
+  align-items:flex-end;
+  width: 18.75vw;
+height: 18.75vw;
+flex-shrink: 0;
+}
+.im3 img{
+  display: flex;
+  align-items: flex-start;
+  width: 15vw;
+height: 15vw;
+flex-shrink: 0;
+margin-top: 4vw;
+}
+.im4{
+  display: flex;
+  align-items: flex-end;
+}
+.im4 img{
+  display: flex;
+  align-items: flex-end;
+  width: 23.1875vw;
+height: 23.1875vw;
+flex-shrink: 0;
+}
+.im5 img{
+  display: flex;
+  align-items: flex-end;
+  width: 4.19vw;
+height: 25vw;
+flex-shrink: 0;
+}
+
+/* <!--Footer--> */
+.footer{
+  position: relative;
+  margin-top: 17.56vw;
+  display: flex;
+  align-items: flex-start;
+  color: #7F5837;
+font-family: Golos Text;
+font-size: 0.6875vw;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #EBD6B1;
+padding-left: 3.63vw;
+height: 33.5625vw;
+flex-shrink: 0;
+} 
+footer p{
+  color: #7F5837;
+font-family: Golos Text;
+font-size: 0.6875vw;
+font-style: normal;
+font-weight: 400;
+line-height: 100%;
+}
+.container10{
+  margin-bottom: 9vw;
+   display: flex;
+}
+.footerP{
+  display: flex;
+width: 12.875vw;
+height: 12.9375vw;
+flex-direction: column;
+flex-shrink: 0;
+}
+.quicklinks1{
+display: flex;
+width: 98px;
+flex-direction: column;
+align-items: flex-start;
+margin-top: 5vw;
+margin-right: 8vw;
+}
+.quicklinks1 img{
+  width: 8.6875vw;
+height: 1.5625vw;
+flex-shrink: 0;
+margin-bottom: 2.75vw;
+}
+.quicklinks1 p{
+  color: #673F1D;
+font-family: Golos Text;
+font-size: 1.0625vw;
+font-style: normal;
+font-weight: 400;
+line-height: 180%;
+}
+ .quicklinks{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-top: 5.38vw;
+margin-left: 8vw;
+}
+.quicklinks pm2{
+  color: #2F2F2F;
+font-family: Golos Text;
+font-size: 1.375vw;
+font-style: normal;
+font-weight: 500;
+line-height: 100%;
+}
+.footerp2{
+  margin-top: 2.3vw;
+}
+.quicklinks p{
+  color: #673F1D;
+  font-family: Golos Text;
+  font-size: 1.0625vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 193%;
+}
+.top-right-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 13.49488rem;
+  height: 14.349rem;
+  flex-shrink: 0;/* Set the height of the image */
+  background-image: url(img/Group\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: bottom;
+  background-size: cover; 
+}
+.bottom-right-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 16.33694vw;
+  height: 15.14781vw;
+  flex-shrink: 0;
+flex-shrink: 0;/* Set the height of the image */
+  background-image: url(img/Group\ 2.svg); /* Replace with the path to your image */
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
